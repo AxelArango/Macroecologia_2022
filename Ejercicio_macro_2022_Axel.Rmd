@@ -149,7 +149,7 @@ Esta relación es muy parecida a la obtenida utilizando el procedimiento `letsR`
 Ahora que hemos evaluado la regla de Rapoport utilizando dos métodos y paqueterías distintas, podemos pensar en el efecto del componente evolutivo sobre dicha relación.
 
 Para esto, primero debemos cargar una filogenía para nuestras especies. 
-En este caso utilizaremos una filogenía para _Emberizidae_ (la súper familia que contiene a _Icteridae_), usada en Arango et al., 2022 modificada y estandarizada de Barker et al., 2015.
+En este caso utilizaremos una filogenía para _Emberizoidea_ (la súper familia que contiene a _Icteridae_), usada en Arango et al., 2022 modificada y estandarizada de Barker et al., 2015.
 ```{r eval=FALSE,echo=TRUE}
 tre<-read.tree("corrected_mcc_cap3.tre")
 tre

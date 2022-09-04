@@ -30,7 +30,7 @@ ict<-read.csv("ict.csv",header=T)
 
 ```
 
-Posteriormente limpiaremos los registros, asegurándonas que no haya ningún NA ni registros repetidos:
+Posteriormente limpiaremos los registros, asegurándonos que no haya ningún NA ni registros repetidos:
 ```{r eval=FALSE} 
 ict<-na.omit(ict)
 ict<-unique(ict)

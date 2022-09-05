@@ -132,7 +132,7 @@ load("st_midpoints.R")
 ```
 
 Esta función utiliza la nueva paquetería `sf` para crear un polígono para cada especie con todas las coordenadas de nuestros registros, para posteriormente calcular el centroide de dicho polígono, obteniendo así los puntos medios de la ubicación geográfica de nuestras especies.
-```{reval=FALSE, echo=TRUE}
+```{r eval=FALSE, echo=TRUE}
 midst<-st_midpoints(ict)
 head(midst)
 ```

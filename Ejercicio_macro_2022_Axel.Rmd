@@ -201,9 +201,6 @@ Por ejemplo, podemos obtener la diversidad filogenética (PD), las tasas de dive
 
 Para esto, primero debemos agregarle una filogenía a nuestro grid creado con `epm``
 
-```{r eval=F}
-grix<-epm::addPhylo(grix,tre)
-```
 
 ```{r eval=T,include=FALSE}
 grix<-epm::addPhylo(grix,tre)
